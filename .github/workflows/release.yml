@@ -1,33 +1,22 @@
 ﻿name: Release (auto version from commits)
 
 on:
-    push:
-        branches: [master]
-
+  push:
+    branches: [ master ]  # change to 'main' if your default branch is main
 
 permissions:
-    contents: write
-    pull-requests: write
+  contents: write
+  pull-requests: write
 
 jobs:
-    release:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Release Please
-              uses: google-github-actions/release-please-action@v4
-              with:
-                release-type: simple
-                bump-minor-pre-major: true
-                changelog-types: >
-                    [{"type":"feat","section":"Features","hidden":false},
-                    {"type":"fix","section":"Bug Fixes","hidden":false},
-                    {"type":"perf","section":"Performance","hidden":false},
-                    {"type":"refactor","section":"Refactors","hidden":true},
-                    {"type":"docs","section":"Docs","hidden":true},
-                    {"type":"style","section":"Style","hidden":true},
-                    {"type":"test","section":"Tests","hidden":true},
-                    {"type":"build","section":"Build System","hidden":true},
-                    {"type":"ci","section":"CI","hidden":true},
-                    {"type":"chore","section":"Chores","hidden":true}]
-
-                    #feat: → MINOR, fix: → PATCH, feat!: or BREAKING CHANGE: → MAJOR.
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      # Uses the maintained action (not deprecated)
+      - name: Release Please
+        uses: googleapis/release-please-action@v4
+        with:
+          # Single repo version + GitHub Release based on Conventional Commits
+          release-type: simple
+          # If you need custom changelog sections later:
+          # config-file: release-please-config.json
