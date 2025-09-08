@@ -17,7 +17,7 @@ PATCH:
 
 MAJOR (breaking):
 ```feat!: switch auth scheme to Bearer```
-(or any commit with a footer BREAKING CHANGE: <details>)
+(or any commit with a footer BREAKING CHANGE: details_here)
 
 ## Does NOT trigger a release
 
