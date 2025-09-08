@@ -1,0 +1,22 @@
+﻿name: Release (auto version from commits)
+
+on:
+  push:
+    branches: [ master ]  # change to 'main' if your default branch is main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      # Uses the maintained action (not deprecated)
+      - name: Release Please
+        uses: googleapis/release-please-action@v4
+        with:
+          # Single repo version + GitHub Release based on Conventional Commits
+          release-type: simple
+          # If you need custom changelog sections later:
+          # config-file: release-please-config.json

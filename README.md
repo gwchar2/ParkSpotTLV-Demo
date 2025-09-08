@@ -9,15 +9,21 @@
 Triggers a release (and what it bumps)
 feat: → MINOR, fix: → PATCH, feat!: or BREAKING CHANGE: → MAJOR.
 
-MINOR:
-```feat: add parking zone overlay to map```
+### PATCH (v0.0.1 → v0.0.2):
 
-PATCH:
-```fix: handle null permit when decoding jwt```
+```fix: handle null permit in auth middleware```
 
-MAJOR (breaking):
-```feat!: switch auth scheme to Bearer```
-(or any commit with a footer BREAKING CHANGE: details_here)
+```fix: correct DTO mapping for ParkingSpot```
+
+### MINOR (v0.0.x → v0.1.0):
+
+```feat: add parking zones overlay to map```
+
+```feat: expose /api/permits endpoint```
+
+### MAJOR (v0.x.y → v1.0.0) — breaking change:
+
+```feat!: switch authentication to Bearer tokens```
 
 ## Does NOT trigger a release
 
