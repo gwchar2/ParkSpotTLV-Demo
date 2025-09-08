@@ -1,4 +1,4 @@
-name: Release (auto version from commits)
+﻿name: Release (auto version from commits)
 
 on:
     push:
@@ -29,3 +29,5 @@ jobs:
                     {"type":"build","section":"Build System","hidden":true},
                     {"type":"ci","section":"CI","hidden":true},
                     {"type":"chore","section":"Chores","hidden":true}]
+
+                    #feat: → MINOR, fix: → PATCH, feat!: or BREAKING CHANGE: → MAJOR.
