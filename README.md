@@ -1,4 +1,34 @@
 ﻿# ParkSpotTLV
+<!-- Status & releases -->
+![Build](https://img.shields.io/github/actions/workflow/status/gwchar2/ParkSpotTLV-Demo/ci.yml?label=Build%20%2B%20Tests)
+![Latest release](https://img.shields.io/github/v/release/gwchar2/ParkSpotTLV-Demo?display_name=tag&sort=semver)
+![Release date](https://img.shields.io/github/release-date/gwchar2/ParkSpotTLV-Demo)
+
+
+## Example commit messages
+Triggers a release (and what it bumps)
+feat: → MINOR, fix: → PATCH, feat!: or BREAKING CHANGE: → MAJOR.
+
+MINOR:
+```feat: add parking zone overlay to map```
+
+PATCH:
+```fix: handle null permit when decoding jwt```
+
+MAJOR (breaking):
+```feat!: switch auth scheme to Bearer```
+(or any commit with a footer BREAKING CHANGE: <details>)
+
+## Does NOT trigger a release
+
+```chore: rename solution folders```
+
+```docs: update readme badges```
+
+```ci: bump actions/checkout to v4```
+
+```test: add unit tests for permits service```
+
 
 ```
 ParkSpotTLV/
