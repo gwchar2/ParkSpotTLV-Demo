@@ -30,6 +30,7 @@ MAJOR (breaking):
 ```test: add unit tests for permits service```
 
 
+## Project Structure
 ```
 ParkSpotTLV/
 ├─ BackEnd/
