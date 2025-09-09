@@ -6,7 +6,7 @@
 
 
 ## Example commit messages
-The following triggers a release (and what it bumps)
+The following triggers a release:
 fix: → PATCH
 feat: → MINOR
 feat!: or BREAKING CHANGE: → MAJOR
