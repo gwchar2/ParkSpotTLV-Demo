@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkSpotTLV.Api", "BackEnd\ParkSpotTLV.Api\ParkSpotTLV.Api.csproj", "{F52E0E96-44D1-4F29-8053-81DAA69A047D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkSpotTLV.Api", "ParkSpotTLV.Api\ParkSpotTLV.Api.csproj", "{F52E0E96-44D1-4F29-8053-81DAA69A047D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkSpotTLV.App", "MobileApp\ParkSpotTLV.App\ParkSpotTLV.App.csproj", "{79AE608D-29A1-41BB-AC75-BF05E36A4C9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkSpotTLV.App", "ParkSpotTLV.App\ParkSpotTLV.App.csproj", "{79AE608D-29A1-41BB-AC75-BF05E36A4C9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkSpotTLV.Contracts", "Shared\ParkSpotTLV.Contracts\ParkSpotTLV.Contracts.csproj", "{E4F0A282-1BE2-46BA-A340-42DC25493189}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkSpotTLV.Contracts", "ParkSpotTLV.Contracts\ParkSpotTLV.Contracts.csproj", "{E4F0A282-1BE2-46BA-A340-42DC25493189}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MobileApp", "MobileApp", "{F9B61DF0-D305-421D-9C12-D7D8F275DB6F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{A7D099AE-1CC3-45D9-AB89-E2276B9393D5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A7D099AE-1CC3-45D9-AB89-E2276B9393D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{B248C993-A7D4-4BF8-9FD3-290834B51637}"
 EndProject

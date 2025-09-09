@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\ParkSpotTLV.Contracts\ParkSpotTLV.Contracts.csproj" />
+    <ProjectReference Include="..\ParkSpotTLV.Contracts\ParkSpotTLV.Contracts.csproj" />
   </ItemGroup>
 
   <ItemGroup>
