@@ -7,9 +7,9 @@
 
 ## Example commit messages
 The following triggers a release (and what it bumps)
-fix: → PATCH; 
-feat: → MINOR; 
-feat!: or BREAKING CHANGE: → MAJOR;
+fix: → PATCH
+feat: → MINOR
+feat!: or BREAKING CHANGE: → MAJOR
 
 ### PATCH (v0.0.1 → v0.0.2):
 
